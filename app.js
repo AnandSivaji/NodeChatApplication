@@ -3,7 +3,7 @@
 var env         = process.env.NODE_ENV || 'development';
 var path        = require('path');
 var express     = require('express');
-var socketio	= require('socket.io');
+var socketio    = require('socket.io');
 var packageJson = require('./package.json');
 
 console.log('App is loading in ' + env + ' mode');
@@ -28,13 +28,13 @@ global.App = {
 
             this.started = true;
             io = socketio.listen(this.app.listen(this.port));
-			console.log('Running App Version ' + App.version + ' in ' + App.env + ' mode on port ' + App.port);
 
+            require('./config')(App.app);
+            require('./routes')(App.app, io);
+
+            console.log('Running App Version ' + App.version + ' in ' + App.env + ' mode on port ' + App.port);
         }
     }
 }
-
-require('./config')(App.app);
-require('./routes')(App.app, io);
 
 App.startChatServer();
