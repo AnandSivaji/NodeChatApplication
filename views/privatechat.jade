@@ -1,0 +1,97 @@
+doctype html
+html
+    head
+        title="Private Chat Room"
+        link(rel="stylesheet", href="/css/home.css")
+        link(rel="stylesheet", href="/css/private-chat.css")
+
+    body
+
+        header.homebanner
+            h1.homebannertext Node Chat Application
+
+        section.p-chat-section
+
+            div.p-chat-connected
+                img(src="/img/unnamed.jpg")
+
+                div.p-connected-info
+                    h2 Who are you?
+                    br
+
+                    form.p-login-form
+                        input#p-user-name(type="text" placeholder="Your nick name")
+                        br
+                        input#p-user-email(type="text" placeholder="Your email address")
+                        br
+                        input#p-user-submit(type="submit" value="ENTER")
+
+            div.p-person-inside
+
+                img#ownerImage( src="/img/unnamed.jpg")
+
+                div.p-info-inside
+                    h2 Chat with
+                        span.p-chat-nickname
+                    br
+
+                    form.p-login-form
+                        input#p-his-name(type="text" placeholder="Your nick name")
+                        br
+                        input#p-his-email(type="text" placeholder="Your email address")
+                        br
+                        input#p-his-submit(type="submit" value="CHAT")
+
+            div.p-chat-invite-textfield
+                h2 Oops, there are no other people in this chat!
+                h5 Invite a friend by sending them this URL
+
+                div.p-chat-link-container
+                    a#p-chat-link(title="Invite a friend")
+
+            div.p-chat-left
+                img.p-left-image(src="/img/unnamed.jpg")
+
+                div.p-chat-info
+                    h2
+                        span.p-chat-nickname-left has left this chat.
+                    h5 Invite somebody else by sending them this page.
+
+            div.p-chat-too-many-people
+
+                h2 Oops, you can not join this chat!
+                h5 There are already two people in it. Would you like to create a
+                    a#p-chat-room(title="New Room" href="/create/private") new room ?
+
+            div.p-chat-no-messages
+
+                img#noMessagesImage( src="/img/unnamed.jpg")
+
+                div.p-chat-info
+                    h2 You are chatting with
+                        span.p-chat-nickname  .
+                    h5 Send them a message from the form below!
+
+            div.p-chat-screen
+                ul.p-chats
+
+        footer
+
+            form#chatform
+                textarea#message(placeholder="Write something..")
+                input#chatsubmit(type="submit" value="SEND")
+
+
+        script(src="/lib/jquery.1.11.1.js")
+        script(src="/socket.io/socket.io.js")
+        script(src="/lib/moment.js")
+        script(src="/js/privatechat.js")
+
+
+
+
+
+
+
+
+
