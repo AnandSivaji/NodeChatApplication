@@ -1,22 +1,22 @@
 doctype html
 html
-	head
-		title= "Node Chat Application"
-		link(rel='stylesheet', href='/css/stylesheet.css')
-	body
-		header.homebanner
-			h1.homebannertext Node Chat Application
-		section
-			div.homesection
-				div.node
-					img(src="/img/chat-home-icon.png")
-					
-			a.create(title="Create Private Chat" href="/create/private")
-				div.createbutton
-					div#little Create a Private Chat
-					div#big PRIVATE CHAT ROOM!
-					
-			a.create(title="Create Public Chat" href="/create/public")
-				div.createbutton
-					div#little Create a Public Chat
-					div#big PUBLIC CHAT ROOM!
+    head
+        title= "Node Chat Application"
+        link(rel='stylesheet', href='/css/home.css')
+    body
+        header.homebanner
+            h1.homebannertext Node Chat Application
+        section
+            div.homesection
+                div.node
+                    img(src="/img/chat-home-icon.png")
+
+            a.create(title="Create Private Chat" href="/create/private")
+                div.createbutton
+                    div.little Create a Private Chat
+                    div.big PRIVATE CHAT ROOM!
+
+            a.create(title="Create Group Chat" href="/create/group")
+                div.createbutton
+                    div.little Create a Group Chat
+                    div.big GROUP CHAT ROOM!!!

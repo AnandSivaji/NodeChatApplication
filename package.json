@@ -1,23 +1,23 @@
 {
-	"name": "NodeChatApplication",
-	"version": "0.0.1Js",
-	"description": "A chat application using Node where both private and group cat is supported",
-	"author": "Anand Sivaji <anandsivaj@gmail.com>",
-	"main": "app.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/AnandSivaji/NodeChatApplication.git"
-	},
-	"dependencies": {
-		"jade": "latest",
-		"express": "^4.8.2",
-		"gravatar": "~1.0.6",
-		"socket.io": "^1.0.6"
-	},
-	"license": "MIT",
-	"readmeFilename": "Readme.md"
+    "name": "NodeChatApplication",
+    "version": "0.0.1",
+    "description": "A chat application using Node where both private and group cat is supported",
+    "author": "Anand Sivaji <anandsivaj@gmail.com>",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AnandSivaji/NodeChatApplication.git"
+    },
+    "dependencies": {
+        "jade": "latest",
+        "express": "^4.8.2",
+        "gravatar": "~1.0.6",
+        "socket.io": "^1.0.6"
+    },
+    "license": "MIT",
+    "readmeFilename": "Readme.md"
 }
 
 
-    
-  
+
+
