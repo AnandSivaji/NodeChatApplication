@@ -1,0 +1,378 @@
+.p-chat-connected {
+
+    width: 700px;
+    height: 400px;
+    margin:0px auto;
+    display: block;
+    text-align:center;
+    border-radius: 3px;
+    box-shadow:0px 3px 3px #E3E4E6;
+    background-color: #FFFFFF;
+    color: #637277;
+}
+
+.p-chat-connected h2 {
+    padding-top: 20px;
+}
+
+.p-connected-info,
+.p-info-inside {
+
+    margin: 65px 165px 0 0;
+    text-align: left;
+    float: right;
+}
+
+.p-chat-connected img {
+    float: left;
+    margin: 90px 0 0 140px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#p-user-name,
+#p-user-email,
+#p-his-name,
+#p-his-email {
+
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #E3E4E6;
+    border: 1px solid #D1D1D1;
+    float: left;
+    background-color: #F0F1F3;
+    overflow: hidden;
+}
+
+#p-user-email {
+
+    width: 200px;
+    height: 30px;
+}
+
+#p-user-submit,
+#p-his-submit {
+
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px #EFEDEE;
+    font-size: 15px;
+    border: none;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #73B4D4;
+}
+
+.p-person-inside {
+
+    width: 700px;
+    height: 400px;
+    border-radius: 3px;
+    margin:0px auto;
+    box-shadow:0px 3px 3px #e3e4e6;
+    text-align:center;
+    display: block;
+    background-color: #ffffff;
+    color: #637277;
+}
+
+.p-person-inside h2 {
+
+    width: 210px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.p-person-inside img,
+.p-chat-left img,
+.p-chat-no-messages img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 90px 0 0 140px;
+    float: left;
+}
+
+#p-his-email {
+
+    width: 200px;
+    margin-bottom:40px;
+}
+
+.p-chat-invite-textfield,
+.p-chat-no-messages,
+.p-chat-left {
+
+    width: 750px;
+    height: 300px;
+    border-radius: 3px;
+    margin:0px auto;
+    box-shadow:0px 3px 3px #e3e4e6;
+    text-align:center;
+    display: block;
+    background-color: #ffffff;
+    color: #637277;
+}
+
+.p-chat-left,
+.p-chat-no-messages {
+    margin-bottom: 400px;
+}
+
+.p-chat-invite-textfield h2 {
+    padding-top: 80px;
+}
+
+.p-chat-invite-textfield h5 {
+
+     margin: 10px 0 35px;
+     font-weight: normal;
+ }
+
+.p-chat-invite-textfield .p-chat-link-container {
+
+    width: 600px;
+    height: 35px;
+    padding-top: 15px;
+    margin-bottom: 120px;
+    border-radius: 4px;
+    margin:0px auto;
+    text-align: center;
+    display: block;
+    background-color: #f0f1f3;
+}
+
+.p-chat-invite-textfield #p-chat-link {
+
+    text-decoration: none;
+    color: #637277;
+}
+
+.p-chat-left h2 {
+
+    padding-top: 50px;
+    padding-bottom: 6px;
+}
+
+.p-chat-left h5 {
+
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+.p-chat-nickname-left {
+    width: 40px;
+    overflow: hidden;
+}
+
+.p-chat-too-many-people {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    width: 750px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #e3e4e6;
+    color: #637277;
+}
+
+.p-chat-too-many-people h2 {
+    padding-top: 100px;
+    padding-bottom: 8px;
+}
+
+.p-chat-too-many-people h5 {
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+#p-chat-room:visited {
+    color: #88bfd4;
+}
+
+.p-chat-no-messages h2 {
+    padding-top: 50px;
+    overflow: hidden;
+    padding-bottom: 6px;
+}
+
+.p-chat-no-messages h5 {
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+.image {
+    clear:both;
+    float:left;
+    height: 160px;
+    width: 80px;
+    text-align:center;
+    overflow: hidden;
+}
+
+.image img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.body {
+    text-align:center;
+    width: 40%;
+    display: block;
+    margin:0px auto 650px;
+    background-color: #ffffff;
+    color: #637277;
+}
+
+.p-chats {
+    list-style-type: none;
+    margin-top:10px;
+}
+
+.me {
+    clear:both;
+    float:left;
+    margin-bottom:10px;
+}
+
+.you {
+    clear:both;
+    float:right;
+    margin-bottom:10px;
+}
+
+.you .image{
+    float:right;
+}
+
+.p-chats .me p {
+    text-align:left;
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom:30px;
+    padding: 25px 34px;
+    min-width: 160px;
+    min-height: 10px;
+    max-width: 510px;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #E3E4E6;
+    color: #637277;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.chats .you p {
+    text-align:left;
+    float: left;
+    display: inline-block;
+    margin-right:20px;
+    margin-bottom:30px;
+    padding: 25px 34px;
+    min-width: 160px;
+    min-height: 10px;
+    max-width: 510px;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #E3E4E6;
+    color: #637277;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.image b {
+    overflow: hidden;
+    display: block;
+    clear: both;
+    padding-top: 7px;
+}
+
+.image i {
+    font-size: 12px;
+    line-height: 1.2;
+    display: block;
+    opacity: 0.8;
+    padding-top: 4px;
+}
+
+
+/* ------------ Footer styles ------------ */
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding-top: 30px;
+    background-color: white;
+    height: 130px;
+}
+
+#chatform {
+    width:700px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#message {
+    width: 550px;
+    height: 80px;
+    display: block;
+    float:left;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-top: 20px;
+    resize: none;
+    font:inherit;
+    color:inherit;
+}
+
+#chatsubmit {
+    width: 110px;
+    height: 60px;
+    float:right;
+    text-align:center;
+    background-color: #73b4d4;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 3px 3px 3px #efedee;
+    border-radius: 2px;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+    cursor:pointer;
+}
+
+.p-chat-connected,
+.p-person-inside,
+.p-chat-invite-textfield,
+.p-chat-left,
+.p-chat-too-many-people,
+.p-chat-no-messages,
+footer {
+    display: none;
+}
+
+.p-chat-screen {
+    display:none;
+    width:700px;
+    margin: 0 auto 200px;
+    overflow:hidden;
+}

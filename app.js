@@ -18,23 +18,21 @@ global.App = {
     version: packageJson.version,
     root: path.join(__dirname, '..'),
 
-    routes: function(path) {
-        return this.require('app/routes' + path);
-    },
-
-    startChatServer: function() {
+    init: function() {
 
         if (!this.started) {
 
             this.started = true;
+
+            require('./config')(this.app);
+            require('./routes')(this.app);
+
             io = socketio.listen(this.app.listen(this.port));
+            require('./chat')(io);
 
-            require('./config')(App.app);
-            require('./routes')(App.app, io);
-
-            console.log('Running App Version ' + App.version + ' in ' + App.env + ' mode on port ' + App.port);
+            console.log('Running App Version ' + this.version + ' in ' + this.env + ' mode on port ' + this.port);
         }
     }
 }
 
-App.startChatServer();
+App.init();
